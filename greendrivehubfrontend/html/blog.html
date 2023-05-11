@@ -4,77 +4,65 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog - Your Website</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../style/style.css" />
   </head>
   <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-      <div class="navbar-menu">
-        <a href="#" class="navbar-logo">Your Website</a>
-        <div class="navbar-items">
-          <a href="#">Progress Tracker</a>
-          <a href="#">Recommended Mechanics</a>
-          <a href="#">Messages</a>
-          <a href="#">Blog</a>
-          <a href="#">FAQs</a>
-          <a href="#">Contact Us</a>
-        </div>
-        <a href="#" class="navbar-toggle">
-          <i class="fa fa-bars"></i>
-        </a>
+    <div class="container">
+      <!-- Navigation Bar -->
+      <div class="navbar">
+        
       </div>
-    </nav>
 
-    <!-- Blog Header -->
-    <div class="blog-header">
-      <h1 class="title_white">Blog</h1>
-      <div class="search-container">
-        <input type="text" placeholder="Search...">
-        <button type="submit">Search</button>
-      </div>
-    </div>
-
-    <!-- Today's Article -->
-    <div class="large-article">
-      <p>Today's Article</p>
-      <img src="../images/car.jpg" alt="Article Image" />
-      <h1 class="title_black">Rev Up Your Hybrid Conversion</h1>
-      <p>
-        Climate change is a major issue that affects us all, and transportation
-        is one of the leading contributors to greenhouse gas emissions. As a
-        result, more people are looking for ways to reduce their carbon footprint,
-        and one effective solution is to convert their cars from petrol to hybrid.
-      </p>
-      <a href="#" class="read-more">Read More</a>
-    </div>
-
-    <!-- More Articles -->
-    <h2 class="title_white">More Articles</h2>
-
-    <div class="small-articles">
-      <div class="small-article">
-        <img src="../images/car2.webp" alt="Article Image" />
-        <div class="article-details">
-          <h3 class="title_white">Our Top Hybrid Conversion Trends</h3>
-          <a href="#" class="arrow-link">&rarr;</a>
+      <!-- Blog Header -->
+      <div class="blog-header">
+        <h1 class="title-white">Blog</h1>
+        <div class="search-container">
+          <input type="text" placeholder="Search...">
+          <button type="submit">Search</button>
         </div>
       </div>
 
-      <div class="small-article">
-        <img src="../images/car3.jpg" alt="Article Image" />
-        <div class="article-details">
-          <h3 class="title_white">Hybrid Conversions vs Electric Cars: Which is Right for You?</h3>
-          <a href="#" class="arrow-link">&rarr;</a>
-        </div>
-      </div>
+      <!-- Today's Article -->
 
-      <div class="small-article">
-        <img src="../images/car4.jpeg" alt="Article Image"/>
-        <div class="article-details">
-          <h3 class="title_white">Save The Planet!</h3>
-          <a href="#" class="arrow-link">&rarr;</a>
+      <div class="card-trip">
+        <img src="../images/car4.jpeg" />
+        <div class="card-trip-infos">
+          <div>
+            <h2 class="title-black">Rev Up Your Hybrid Conversion</h2>
+            <p>Climate contributors to greenhouse gas emissions. As a
+              result, more people are looking for ways to reduce their carbon footprint,
+              which is a major issue that affects us all, and transportation is one of the leading...
+              </p>
+          </div>
+          <!-- <a href="#" class="read-more-button">Read more</h2> -->
         </div>
       </div>
-    </div>
+      
+      <!-- More Articles -->
+      <div class="more-articles">
+        <h2 class="title-white">More Articles</h2>
+
+        <div class="card-product">
+          <img src="../images/car2.webp" />
+          <div class="card-product-infos">
+            <h2>Our Top Hybrid Conversion Trends</h2>
+          </div>
+        </div>
+
+          <div class="card-product">
+            <img src="../images/car3.jpg" />
+            <div class="card-product-infos">
+              <h2>Hybrid Conversion vs. Electric Cars: Which Is Right for You?"</h2>
+            </div>
+          </div>
+
+          <div class="card-product">
+            <img src="../images/car.jpg" />
+            <div class="card-product-infos">
+              <h2>Save the Planet!</h2>
+            </div>
+          </div>
+        </div>
+    </div> 
   </body>
 </html>
