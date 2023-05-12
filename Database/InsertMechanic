@@ -1,0 +1,7 @@
+INSERT INTO Mechanic (Name, CompanyName, CompanyNumber, Email, Password, About)
+VALUES 
+('John Smith', 'GreenTech Conversions', 'GT123456', 'johnsmith@greentech.com', 'password1', 'GreenTech Conversions is a leading electric vehicle conversion company, committed to making a positive impact on the environment through sustainable transportation solutions.'),
+('Rachel Jones', 'EV Innovations', 'EV456789', 'rjones@evinnovations.com', 'password2', 'EV Innovations is a pioneer in the electric vehicle conversion industry, offering top-quality products and services to customers worldwide.'),
+('Mike Davis', 'Electric Car Conversions', 'ECC101112', 'mike.davis@ecc.com', 'password3', 'At Electric Car Conversions, we believe that electric vehicles are the future of transportation. Thats why we offer cutting-edge conversion services to help our customers make the switch to electric.'),
+('Lisa Nguyen', 'Volt EV', 'VOLT202122', 'lisa.nguyen@voltev.com', 'password4', 'Volt EV is a full-service electric vehicle conversion company, dedicated to providing innovative and affordable solutions for our customers.'),
+('David Thompson', 'Electric Auto Shop', 'EAS7891011', 'd.thompson@eas.com', 'password5', 'Electric Auto Shop is a family-owned business that has been providing high-quality electric vehicle conversion services since 2008. We pride ourselves on our attention to detail and customer satisfaction.');
